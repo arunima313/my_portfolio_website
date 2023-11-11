@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio - DarkStar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7cac8b5b79.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/arunima logo.jpg" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>
+            Hi, I'm <span>Arunima</span> Pal <br />
+            From Durgapur
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------About----------------------------------------------------------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/me.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="para">
+              I am Arunima Pal , a recent ECE graduate from Maulana Abul Kalam Azad University of Technology, West Bengal with a passion for web development. I have gained proficiency in HTML, CSS, JavaScript, and web frameworks through my coursework and personal projects.My strengths are: I am a self-motivated, hardworking person and have a positive mindset. My hobbies are: I like cooking, learning new things, and having a great passion for technology.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li><span>Data Science</span><br />AI and ML using Python</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>June 2023</span><br />Data Science Intern at Ardent
+                  Computech Pvt. Ltd.
+                </li>
+                <li>
+                  <span>July 2023</span><br />Trainee at SAIL-Durgapur Steel
+                  Plant
+                </li>
+                <li>
+                  <span>August - September 2023</span><br />Intern at Emertxe Technologies
+                </li>
+                <li>
+                  <span>July - August 2023</span><br />Intern at Oasis Infobyte
+                </li>
+                <li>
+                  <span>November 2023</span><br />Trainee at Internshala
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2017</span><br />Hem Sheela Model School,Durgapur</li>
+                <li><span>2019</span><br />Hem Sheela Model School,Durgapur</li>
+                <li>
+                  <span>2020-2024</span><br />Btech. in ECE from RKMGEC,Purulia
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <------------------------------------SERVICES----------------------------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              UI refers to the screens, buttons, toggles, icons, and other visual elements that you interact with when using a website, app, or electronic device. UX refers to the entire interaction you have with a product, including how you feel about the interaction.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>AI/ML</h2>
+            <p>
+              AIML was developed by Dr. Richard Wallace and is now maintained by the AIML Consortium. AIML is used to create chatbots, virtual assistants, and other forms of artificial intelligence software. AIML is also used in research and development of natural language processing systems.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Data Science</h2>
+            <p>
+              Data science is the study of data to extract meaningful insights for business. It is a multidisciplinary approach that combines principles and practices from the fields of mathematics, statistics, artificial intelligence, and computer engineering to analyze large amounts of data
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------PORTfolio----------------------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/pic1.png" />
+            <div class="layer">
+              <h3>My Restuarent Website</h3>
+              <p>
+                Foodie Banaglie Website made by me 
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/pic3.webp" />
+            <div class="layer">
+              <h3>An Online Tution Website</h3>
+              <p>
+                Academix is a website prepared by me for students from class 5 - 10
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/pic1.png" />
+            <div class="layer">
+              <h3>Diabetes Prediction Model</h3>
+              <p>
+                The model is used to detect whether the patient is having Diabetes or not
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- <-----------------------------------------Contact--------------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>arunimapal313@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8637888640</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"></a><i class="fa-brands fa-facebook"></i></a>
+              <a href=""></a><i class="fa-brands fa-twitter"></i></a>
+              <a href=""></a><i class="fa-brands fa-instagram"></i></a>
+              <a href=""></a><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="ARUNIMA PAL_RESUME.pdf" download class="btn btn2">Download My CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
